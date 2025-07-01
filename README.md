@@ -68,3 +68,23 @@ A fully functional, frontend-only dental management dashboard built with **React
 
 ## 🗂️ Project Structure
 
+src/
+├── components/ # Sidebar, Layout, Reusable Components
+├── context/ # Auth context
+├── pages/ # Dashboard, Login, Patients, Appointments, Calendar, Records
+├── utils/ # Utility functions
+├── App.jsx # Routing and core app logic
+└── main.jsx / index.js
+
+
+---
+
+## 📦 Setup Instructions
+
+```bash
+git clone https://github.com/aryaman0603/Dental-Centre-Management-Dashboard.git
+cd Dental-Centre-Management-Dashboard
+npm install
+npm run dev
+
+
