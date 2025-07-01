@@ -48,6 +48,8 @@ A fully functional, frontend-only dental management dashboard built with **React
 - File uploads are converted to Base64 and stored in JSON format.
 - Designed with real-world scalability and structure in mind.
 
+---
+
 ## 📝 Sample Credentials
 - 🧑‍⚕️ Admin
   Email: admin@entnt.in
@@ -57,14 +59,14 @@ A fully functional, frontend-only dental management dashboard built with **React
   Email: john@entnt.in
   Password: patient123
 
+---
+
 ## ⚠️ Notes
 - No backend or database is used.
 - No external libraries for authentication, form handling, or UI components.
 - Pure React and TailwindCSS only (no Bootstrap, Redux, or APIs).
 
-## 👨‍💻 Developed by
-- Aryaman Sharma
-- 📧 aryaman.s.work@gmail.com
+---
 
 ## 🗂️ Project Structure
 
@@ -76,8 +78,13 @@ src/
 ├── App.jsx # Routing and core app logic
 └── main.jsx / index.js
 
-
 ---
+
+## 👨‍💻 Developed by
+- Aryaman Sharma
+- 📧 aryaman.s.work@gmail.com
+
+--- 
 
 ## 📦 Setup Instructions
 
@@ -86,5 +93,6 @@ git clone https://github.com/aryaman0603/Dental-Centre-Management-Dashboard.git
 cd Dental-Centre-Management-Dashboard
 npm install
 npm run dev
+
 
 
