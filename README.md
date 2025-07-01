@@ -1,6 +1,6 @@
 # ENTNT Dental Center Management Dashboard
 
-A fully functional, frontend-only dental management dashboard built with **React.js**. This project was submitted as a technical assessment for the **Frontend Developer** role at **ENTNT**.
+A fully functional, frontend-only dental management dashboard built with **React.js**.
 
 ---
 
