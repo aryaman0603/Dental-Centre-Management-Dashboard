@@ -1,11 +1,12 @@
 # ENTNT Dental Center Management Dashboard
 
-A fully functional, frontend-only dental management dashboard built with **React.js**.
+A fully functional, frontend-only dental management dashboard built with **React.js**. This project was submitted as a technical assessment for the **Frontend Developer** role at **ENTNT**.
+
+---
 
 ## 🚀 Live Demo
 
-🌐 [Deployed App Link](https://dental-centre-management-dashboard.vercel.app/)
-
+🌐 [Deployed App Link](https://dental-centre-management-dashboard.vercel.app/)  
 🗂️ [GitHub Repository](https://github.com/aryaman0603/Dental-Centre-Management-Dashboard)
 
 ---
@@ -41,58 +42,29 @@ A fully functional, frontend-only dental management dashboard built with **React
 
 ---
 
+## 💡 Technical Decisions
+- Used Context API for authentication and role-based routing.
+- Entire app is simulated using localStorage; no backend or API is used.
+- File uploads are converted to Base64 and stored in JSON format.
+- Designed with real-world scalability and structure in mind.
+
+## 📝 Sample Credentials
+- 🧑‍⚕️ Admin
+  Email: admin@entnt.in
+  Password: admin123
+
+- 👤 Patient
+  Email: john@entnt.in
+  Password: patient123
+
+## ⚠️ Notes
+- No backend or database is used.
+- No external libraries for authentication, form handling, or UI components.
+- Pure React and TailwindCSS only (no Bootstrap, Redux, or APIs).
+
+## 👨‍💻 Developed by
+- Aryaman Sharma
+- 📧 aryaman.s.work@gmail.com
+
 ## 🗂️ Project Structure
-
-src/
-├── components/ # Sidebar, Layout, Reusable Components
-├── context/ # Auth context
-├── pages/ # Dashboard, Login, Patients, Appointments, Calendar, Records
-├── utils/ # Utility functions
-├── App.jsx # Routing
-├── index.js
-
-
----
-
-## 📦 Setup Instructions
-
-```bash
-git clone https://github.com/your-username/entnt-dental-dashboard
-cd entnt-dental-dashboard
-npm install
-npm run dev
-
----
-
-💡 Technical Decisions
-Used Context API for auth and role management.
-
-No external auth or database: entire simulation is handled using localStorage.
-
-Files uploaded as Base64 and stored in JSON for demo purposes.
-
-All data flows structured for real-world scalability.
-
----
-
-📝 Sample Credentials
-🧑‍⚕️ Admin
-Email: admin@entnt.in
-Password: admin123
-👤 Patient
-Email: john@entnt.in
-Password: patient123
-
----
-
-⚠️ Notes
-No external database or backend is used.
-
-Pure React + Tailwind only. No Bootstrap, Redux, or APIs.
-
----
-
-👨‍💻 Developed by
-Aryaman Sharma
-📧 aryaman.s.work@gmail.com
 
