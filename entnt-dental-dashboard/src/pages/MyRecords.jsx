@@ -62,7 +62,6 @@ const MyRecords = () => {
                 </p>
               )}
 
-              {/* Files */}
               {incident.files && incident.files.length > 0 && (
                 <div className="mt-2">
                   <p className="font-semibold text-sm">Files:</p>

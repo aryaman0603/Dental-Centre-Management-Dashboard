@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { getPatients, savePatients } from "../utils/storageUtils";
 import { mockPatients } from "../data/patients";
 import Layout from "../components/Layout";
-// import { useNavigate } from "react-router-dom";
 
 const Patients = () => {
   const [patients, setPatients] = useState([]);

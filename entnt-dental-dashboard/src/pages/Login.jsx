@@ -22,17 +22,13 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-sm">
-        {/* Logo and Heading */}
         <div className="text-center mb-6">
-          {/* Optional image logo */}
-          {/* <img src={logo} alt="Logo" className="mx-auto mb-3 w-16 h-16" /> */}
           <h1 className="text-2xl font-bold text-blue-600">
             Dental Center Management
           </h1>
           <p className="text-sm text-gray-600">Admin & Patient Portal</p>
         </div>
 
-        {/* Login Form */}
         {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
         <form onSubmit={handleLogin}>
           <input

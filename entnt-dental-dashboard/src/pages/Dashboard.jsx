@@ -29,27 +29,10 @@ const Dashboard = () => {
           <h1 className="text-2xl font-bold text-blue-600">Welcome, {user?.role}</h1>
           <p className="text-sm text-gray-600">Logged in as {user?.email}</p>
         </div>
-        {/* <button
-          className="bg-red-500 text-white px-4 py-2 rounded"
-          onClick={logout}
-        >
-          Logout
-        </button> */}
       </div>
 
-      {/* Admin Navigation */}
       {user?.role === "Admin" && (
         <div className="flex gap-4">
-          {/* <Link
-            to="/patients"
-            className="bg-blue-100 text-blue-800 px-4 py-2 rounded hover:bg-blue-200"
-          >
-            Manage Patients
-          </Link> */}
-
-          {/* Future Navigation Options */}
-          {/* <Link to="/appointments">Appointments</Link> */}
-          {/* <Link to="/calendar">Calendar</Link> */}
         </div>
       )}
 
@@ -69,7 +52,6 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Upcoming Appointments */}
       <div className="bg-white p-4 shadow rounded">
         <h2 className="text-lg font-semibold mb-2">Upcoming Appointments</h2>
         {kpis.upcoming.length === 0 ? (

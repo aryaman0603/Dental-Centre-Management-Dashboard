@@ -13,18 +13,13 @@ import MyRecords from "./pages/MyRecords";
 import Unauthorized from "./pages/Unauthorized";
 
 
-// Optional future imports
-// import PatientView from "./pages/PatientView";
-
 function App() {
   return (
     <AuthProvider>
       <Router>
         <Routes>
-          {/* Public Routes */}
           <Route path="/login" element={<Login />} />
 
-          {/* Protected Routes */}
           <Route
             path="/dashboard"
             element={
@@ -82,22 +77,13 @@ function App() {
             }
           />
           <Route
-          path="/my-records"
-          element={
-            <ProtectedRoute role="Patient">
-              <MyRecords />
-            </ProtectedRoute>
-          }
-        />
-
-          {/* <Route
             path="/my-records"
             element={
               <ProtectedRoute role="Patient">
-                <PatientView />
+                <MyRecords />
               </ProtectedRoute>
-            }
-          /> */}
+              }
+            />
           <Route path="/unauthorized" element={<Unauthorized />} />
           <Route path="*" element={<Login />} />
         </Routes>
